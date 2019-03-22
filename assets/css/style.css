@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+body {
+    background-color: yellow;
+}
+
+#container {
+    height: 500px;
+    width: 800px;
+    background-color: lightblue;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#timeRem {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#question {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.answers {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.answers:hover {
+    border: 2px pink solid;
+    cursor: grab;
+}
+
+#correctans, #startbut {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+}
