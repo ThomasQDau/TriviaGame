@@ -57,7 +57,7 @@ var game = {
     timeUp: function () {
         clearInterval(timer);
         $("#question").html("Times up!");
-        $("#ans1").html("");
+        $("#ans1").empty();
         $("#correctans").html("Correct Answer was: " + questions[game.currentQuestion].correctAnswer);
         if (game.currentQuestion == questions.length-1) {
             setTimeout(game.results, 3000);
@@ -69,6 +69,7 @@ var game = {
         clearInterval(timer);
         $("#question").html("All done! <br>");
         $("#timeRem").html("");
+        $("#correctans").html("");
         $("#question").append("Correct: " + game.correct + "<br>");
         $("#question").append("Incorrect: " + game.incorrect);
     },
